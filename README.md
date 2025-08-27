@@ -3,26 +3,26 @@ This is a Machine learning project that predicts the rating and general public s
 
 ## Project Overview
 
-Preprocesses raw text reviews:
+1. Preprocesses raw text reviews:
 
-Lowercasing
+- Lowercasing
 
-Removing special characters
+- Removing special characters
 
-Removing stopwords (NLTK)
+- Removing stopwords (NLTK)
 
-Stemming
+- Stemming
 
-Transforms reviews into numeric features using TF-IDF.
+2. Transforms reviews into numeric features using TF-IDF.
 
-Trains a Logistic Regression model to predict movie ratings.
+3. Trains a Logistic Regression model to predict movie ratings.
 
-Maps predicted ratings to sentiments:
+4. Maps predicted ratings to sentiments:
 
-Rating ≥ 7 → Positive
+- Rating ≥ 7 → Positive
 
-Rating ≤ 4 → Negative
+- Rating ≤ 4 → Negative
 
-Rating 5–6 → Neutral
+- Rating 5–6 → Neutral
 
-Evaluates performance using metrics such as accuracy, precision, recall, F1-score, and confusion matrices.
+5. Evaluates performance using metrics such as accuracy, precision, recall, F1-score, and confusion matrices.
